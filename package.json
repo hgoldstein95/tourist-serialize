@@ -1,0 +1,29 @@
+{
+  "name": "tourist-serialize",
+  "version": "0.1.0",
+  "description": "Serializers and deserializers for tour files.",
+  "main": "dist/index.js",
+  "repository": "github:hgoldstein95/tourist-serialize",
+  "scripts": {
+    "test": "tsc && mocha --inline-diffs -c --require ts-node/register test/basic.test.ts",
+    "build": "tsc"
+  },
+  "author": "Harrison Goldstein <hgoldstein95@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/chai-as-promised": "^7.1.0",
+    "@types/deep-equal": "^1.0.1",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^11.13.4",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^6.1.4",
+    "ts-node": "^8.0.3",
+    "tslint": "^5.15.0",
+    "typescript": "^3.4.2"
+  },
+  "dependencies": {
+    "io-ts": "^1.8.6"
+  }
+}
